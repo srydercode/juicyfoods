@@ -4,7 +4,12 @@ import { LinkContainer } from 'react-router-bootstrap'
 const Menu = () => {
   return (
     <>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar
+        
+        expand='lg'
+        collapseOnSelect
+        className='navbar navbar-expand-lg  py-lg-4 justify-content-center navbar-dark navbar-bg'
+      >
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>JuicyFoods</Navbar.Brand>

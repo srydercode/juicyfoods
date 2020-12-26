@@ -6,3 +6,7 @@ body {
 main {
   min-height: 80vh;
 }
+
+.navbar-bg {
+  background-color: rgba(47, 23, 15, 0.65);
+}
