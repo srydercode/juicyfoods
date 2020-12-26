@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet'
 import Header from '../components/Header'
 import Menu from '../components/Menu'
+import AboutPageDescription from '../components/AboutPageDescription'
 
 const AboutPage = () => {
   return (
@@ -11,6 +12,7 @@ const AboutPage = () => {
       </Helmet>
       <Header pageTitle='About' pageDescription='About Page' />
       <Menu />
+      <AboutPageDescription />
     </>
   )
 }
