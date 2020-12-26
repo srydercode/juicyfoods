@@ -9,7 +9,7 @@ const CallToActionHomePage = () => {
             <img
               className='intro-img img-fluid mb-3 mb-lg-0 rounded'
               src={introImage}
-              alt='intro image here'
+              alt='intro description'
             />
             <div className='intro-text left-0 text-center bg-faded p-5 rounded'>
               <h2 className='section-heading mb-4'>
@@ -23,9 +23,9 @@ const CallToActionHomePage = () => {
                 we guarantee it!
               </p>
               <div className='intro-button mx-auto'>
-                <a className='btn btn-primary btn-xl' href='#'>
+                <button className='btn btn-primary btn-xl'>
                   Visit Us Today!
-                </a>
+                </button>
               </div>
             </div>
           </div>

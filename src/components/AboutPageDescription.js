@@ -9,7 +9,7 @@ const AboutPageDescription = () => {
           <img
             className='img-fluid rounded about-heading-img mb-3 mb-lg-0'
             src={aboutImage}
-            alt='about image here'
+            alt=''
           />
           <div className='about-heading-content'>
             <div className='row'>
