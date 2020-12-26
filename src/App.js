@@ -1,12 +1,14 @@
-import { Container } from 'react-bootstrap'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 // components
-import Menu from './components/Menu'
+// import Menu from './components/Menu'
+import Footer from './components/Footer'
 
 // pages
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
+import ProductsPage from './pages/ProductsPage'
+import StorePage from './pages/StorePage'
 
 // styles
 import './App.css'
@@ -14,13 +16,13 @@ import './App.css'
 const App = () => {
   return (
     <Router>
-      <Menu />
       <main>
-        <Container>
-          <Route path='/react-bootstrap-starter' component={HomePage} exact />
-          <Route path='/react-bootstrap-starter/about' component={AboutPage} />
-        </Container>
+        <Route path='/' component={HomePage} exact />
+        <Route path='/about' component={AboutPage} />
+        <Route path='/products' component={ProductsPage} />
+        <Route path='/store' component={StorePage} />
       </main>
+      <Footer />
     </Router>
   )
 }

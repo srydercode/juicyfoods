@@ -2,17 +2,17 @@ import { Helmet } from 'react-helmet'
 import Header from '../components/Header'
 import Menu from '../components/Menu'
 
-const AboutPage = () => {
+const ProductsPage = () => {
   return (
-    <>
+    <div>
       <Helmet>
-        <title>About Page</title>
+        <title>Products</title>
         <meta name='description' content='Helmet application' />
       </Helmet>
-      <Header pageTitle='About' pageDescription='About Page' />
+      <Header pageTitle='Products' pageDescription='This is the Products Page' />
       <Menu />
-    </>
+    </div>
   )
 }
 
-export default AboutPage
+export default ProductsPage
