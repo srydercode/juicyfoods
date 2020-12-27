@@ -1,5 +1,4 @@
-import aboutImage from '../img/about.jpg'
-
+import aboutImage from '../img/bottle-juice.jpg'
 
 const AboutPageDescription = () => {
   return (
@@ -19,7 +18,9 @@ const AboutPageDescription = () => {
                     <span className='section-heading-upper'>
                       Strong Coffee, Strong Roots
                     </span>
-                    <span className='section-heading-lower'>About Our Cafe</span>
+                    <span className='section-heading-lower'>
+                      About Our Cafe
+                    </span>
                   </h2>
                   <p>
                     Founded in 1987 by the Hernandez brothers, our establishment

@@ -13,18 +13,18 @@ const CallToActionHomePage = () => {
             />
             <div className='intro-text left-0 text-center bg-faded p-5 rounded'>
               <h2 className='section-heading mb-4'>
-                <span className='section-heading-upper'>Fresh Coffee</span>
+                <span className='section-heading-upper'>Fresh Juice</span>
                 <span className='section-heading-lower'>Worth Drinking</span>
               </h2>
-              <p className='mb-3'>
-                Every cup of our quality artisan coffee starts with locally
-                sourced, hand picked ingredients. Once you try it, our coffee
-                will be a blissful addition to your everyday morning routine -
-                we guarantee it!
+              <p className='mb-3' data-aos="fade-right">
+                Every drink of our quality artisan fresh juice starts with
+                locally sourced, hand picked ingredients. Once you try it, our
+                coffee will be a blissful addition to your everyday routine - we
+                guarantee it!
               </p>
               <div className='intro-button mx-auto'>
                 <button className='btn btn-primary btn-xl'>
-                  Visit Us Today!
+                  Order A Juice!
                 </button>
               </div>
             </div>

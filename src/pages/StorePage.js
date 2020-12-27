@@ -7,10 +7,10 @@ const StorePage = () => {
   return (
     <div>
       <Helmet>
-        <title>Our Store</title>
+        <title>Locations</title>
         <meta name='description' content='Helmet application' />
       </Helmet>
-      <Header pageTitle='Store' pageDescription='This is the Store Page' />
+      <Header pageTitle='Store' pageDescription='where to find us' />
       <Menu />
       <StoreItem />
     </div>

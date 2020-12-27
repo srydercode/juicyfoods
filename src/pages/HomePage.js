@@ -8,10 +8,12 @@ const HomePage = () => {
   return (
     <div>
       <Helmet>
-        <title>Home Page</title>
-        <meta name='description' content='Helmet application' />
+        <title>Home</title>
       </Helmet>
-      <Header pageTitle='Landing' pageDescription='This is the Landing Page' />
+      <Header
+        pageTitle='JuicyFoods'
+        pageDescription='get the natural taste in your juice'
+      />
       <Menu />
       <CallToActionHomePage />
       <PublicMessageHome />

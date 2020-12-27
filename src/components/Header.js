@@ -7,7 +7,7 @@ const Header = (props) => {
         <span className='site-heading-upper text-primary mb-3'>
           {props.pageTitle}
         </span>
-        <span className='site-heading-lower'>{props.pageDescription}</span>
+        <span className='site-heading-lower text-capitalize'>{props.pageDescription}</span>
       </h1>
     </>
   )

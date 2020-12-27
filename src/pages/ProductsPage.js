@@ -8,9 +8,8 @@ const ProductsPage = () => {
     <div>
       <Helmet>
         <title>Products</title>
-        <meta name='description' content='Helmet application' />
       </Helmet>
-      <Header pageTitle='Products' pageDescription='This is the Products Page' />
+      <Header pageTitle='Products' pageDescription='Our Juice Products and Food Supplies' />
       <Menu />
       <Products />
     </div>

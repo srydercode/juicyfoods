@@ -44,7 +44,7 @@ p {
 }
 
 .site-heading .site-heading-lower {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 100;
   line-height: 4rem;
 }
@@ -226,7 +226,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #bd7d2fd2;
 }
 
 .text-primary {

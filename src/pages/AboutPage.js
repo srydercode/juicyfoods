@@ -7,10 +7,12 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About Page</title>
-        <meta name='description' content='Helmet application' />
+        <title>About Us</title>
       </Helmet>
-      <Header pageTitle='About' pageDescription='About Page' />
+      <Header
+        pageTitle='About'
+        pageDescription='our mission and vission is clear'
+      />
       <Menu />
       <AboutPageDescription />
     </>
