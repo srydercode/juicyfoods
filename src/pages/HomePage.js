@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div>
       <Helmet>
-        <title>Home</title>
+        <title>JuicyFoods</title>
       </Helmet>
       <Header
         pageTitle='JuicyFoods'

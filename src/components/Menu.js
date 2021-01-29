@@ -5,7 +5,6 @@ const Menu = () => {
   return (
     <>
       <Navbar
-        
         expand='lg'
         collapseOnSelect
         className='navbar navbar-expand-lg  py-lg-4 justify-content-center navbar-dark navbar-bg'

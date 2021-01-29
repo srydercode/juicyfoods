@@ -10,7 +10,7 @@ const Products = () => {
           <div class='product-item'>
             <div class='product-item-title d-flex'>
               <div class='bg-faded p-5 d-flex ml-auto rounded'>
-                <h2 class='section-heading mb-0'>
+                <h2 class='section-heading mb-0' data-aos='fade-right'>
                   <span class='section-heading-upper'>
                     Blended to Perfection
                   </span>
